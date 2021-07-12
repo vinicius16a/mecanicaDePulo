@@ -1,0 +1,594 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9412B4372698104500C8D625 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412B4362698104500C8D625 /* AppDelegate.swift */; };
+		9412B4392698104500C8D625 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9412B4382698104500C8D625 /* GameScene.sks */; };
+		9412B43B2698104500C8D625 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = 9412B43A2698104500C8D625 /* Actions.sks */; };
+		9412B43D2698104500C8D625 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412B43C2698104500C8D625 /* GameScene.swift */; };
+		9412B43F2698104500C8D625 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412B43E2698104500C8D625 /* GameViewController.swift */; };
+		9412B4422698104500C8D625 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9412B4402698104500C8D625 /* Main.storyboard */; };
+		9412B4442698104600C8D625 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9412B4432698104600C8D625 /* Assets.xcassets */; };
+		9412B44F2698104600C8D625 /* mecanicaDePuloTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412B44E2698104600C8D625 /* mecanicaDePuloTests.swift */; };
+		9412B45A2698104600C8D625 /* mecanicaDePuloUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9412B4592698104600C8D625 /* mecanicaDePuloUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9412B44B2698104600C8D625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9412B42B2698104500C8D625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9412B4322698104500C8D625;
+			remoteInfo = mecanicaDePulo;
+		};
+		9412B4562698104600C8D625 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9412B42B2698104500C8D625 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9412B4322698104500C8D625;
+			remoteInfo = mecanicaDePulo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9412B4332698104500C8D625 /* mecanicaDePulo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = mecanicaDePulo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9412B4362698104500C8D625 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9412B4382698104500C8D625 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		9412B43A2698104500C8D625 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		9412B43C2698104500C8D625 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		9412B43E2698104500C8D625 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		9412B4412698104500C8D625 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9412B4432698104600C8D625 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9412B4452698104600C8D625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9412B44A2698104600C8D625 /* mecanicaDePuloTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mecanicaDePuloTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9412B44E2698104600C8D625 /* mecanicaDePuloTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mecanicaDePuloTests.swift; sourceTree = "<group>"; };
+		9412B4502698104600C8D625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9412B4552698104600C8D625 /* mecanicaDePuloUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = mecanicaDePuloUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9412B4592698104600C8D625 /* mecanicaDePuloUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mecanicaDePuloUITests.swift; sourceTree = "<group>"; };
+		9412B45B2698104600C8D625 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9412B4302698104500C8D625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9412B4472698104600C8D625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9412B4522698104600C8D625 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9412B42A2698104500C8D625 = {
+			isa = PBXGroup;
+			children = (
+				9412B4352698104500C8D625 /* mecanicaDePulo */,
+				9412B44D2698104600C8D625 /* mecanicaDePuloTests */,
+				9412B4582698104600C8D625 /* mecanicaDePuloUITests */,
+				9412B4342698104500C8D625 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9412B4342698104500C8D625 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9412B4332698104500C8D625 /* mecanicaDePulo.app */,
+				9412B44A2698104600C8D625 /* mecanicaDePuloTests.xctest */,
+				9412B4552698104600C8D625 /* mecanicaDePuloUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9412B4352698104500C8D625 /* mecanicaDePulo */ = {
+			isa = PBXGroup;
+			children = (
+				9412B4362698104500C8D625 /* AppDelegate.swift */,
+				9412B4382698104500C8D625 /* GameScene.sks */,
+				9412B43A2698104500C8D625 /* Actions.sks */,
+				9412B43C2698104500C8D625 /* GameScene.swift */,
+				9412B43E2698104500C8D625 /* GameViewController.swift */,
+				9412B4402698104500C8D625 /* Main.storyboard */,
+				9412B4432698104600C8D625 /* Assets.xcassets */,
+				9412B4452698104600C8D625 /* Info.plist */,
+			);
+			path = mecanicaDePulo;
+			sourceTree = "<group>";
+		};
+		9412B44D2698104600C8D625 /* mecanicaDePuloTests */ = {
+			isa = PBXGroup;
+			children = (
+				9412B44E2698104600C8D625 /* mecanicaDePuloTests.swift */,
+				9412B4502698104600C8D625 /* Info.plist */,
+			);
+			path = mecanicaDePuloTests;
+			sourceTree = "<group>";
+		};
+		9412B4582698104600C8D625 /* mecanicaDePuloUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9412B4592698104600C8D625 /* mecanicaDePuloUITests.swift */,
+				9412B45B2698104600C8D625 /* Info.plist */,
+			);
+			path = mecanicaDePuloUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9412B4322698104500C8D625 /* mecanicaDePulo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9412B45E2698104600C8D625 /* Build configuration list for PBXNativeTarget "mecanicaDePulo" */;
+			buildPhases = (
+				9412B42F2698104500C8D625 /* Sources */,
+				9412B4302698104500C8D625 /* Frameworks */,
+				9412B4312698104500C8D625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = mecanicaDePulo;
+			productName = mecanicaDePulo;
+			productReference = 9412B4332698104500C8D625 /* mecanicaDePulo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9412B4492698104600C8D625 /* mecanicaDePuloTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9412B4612698104600C8D625 /* Build configuration list for PBXNativeTarget "mecanicaDePuloTests" */;
+			buildPhases = (
+				9412B4462698104600C8D625 /* Sources */,
+				9412B4472698104600C8D625 /* Frameworks */,
+				9412B4482698104600C8D625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9412B44C2698104600C8D625 /* PBXTargetDependency */,
+			);
+			name = mecanicaDePuloTests;
+			productName = mecanicaDePuloTests;
+			productReference = 9412B44A2698104600C8D625 /* mecanicaDePuloTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9412B4542698104600C8D625 /* mecanicaDePuloUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9412B4642698104600C8D625 /* Build configuration list for PBXNativeTarget "mecanicaDePuloUITests" */;
+			buildPhases = (
+				9412B4512698104600C8D625 /* Sources */,
+				9412B4522698104600C8D625 /* Frameworks */,
+				9412B4532698104600C8D625 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9412B4572698104600C8D625 /* PBXTargetDependency */,
+			);
+			name = mecanicaDePuloUITests;
+			productName = mecanicaDePuloUITests;
+			productReference = 9412B4552698104600C8D625 /* mecanicaDePuloUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9412B42B2698104500C8D625 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					9412B4322698104500C8D625 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					9412B4492698104600C8D625 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9412B4322698104500C8D625;
+					};
+					9412B4542698104600C8D625 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 9412B4322698104500C8D625;
+					};
+				};
+			};
+			buildConfigurationList = 9412B42E2698104500C8D625 /* Build configuration list for PBXProject "mecanicaDePulo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9412B42A2698104500C8D625;
+			productRefGroup = 9412B4342698104500C8D625 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9412B4322698104500C8D625 /* mecanicaDePulo */,
+				9412B4492698104600C8D625 /* mecanicaDePuloTests */,
+				9412B4542698104600C8D625 /* mecanicaDePuloUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9412B4312698104500C8D625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9412B4422698104500C8D625 /* Main.storyboard in Resources */,
+				9412B4392698104500C8D625 /* GameScene.sks in Resources */,
+				9412B4442698104600C8D625 /* Assets.xcassets in Resources */,
+				9412B43B2698104500C8D625 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9412B4482698104600C8D625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9412B4532698104600C8D625 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9412B42F2698104500C8D625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9412B43D2698104500C8D625 /* GameScene.swift in Sources */,
+				9412B43F2698104500C8D625 /* GameViewController.swift in Sources */,
+				9412B4372698104500C8D625 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9412B4462698104600C8D625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9412B44F2698104600C8D625 /* mecanicaDePuloTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9412B4512698104600C8D625 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9412B45A2698104600C8D625 /* mecanicaDePuloUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9412B44C2698104600C8D625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9412B4322698104500C8D625 /* mecanicaDePulo */;
+			targetProxy = 9412B44B2698104600C8D625 /* PBXContainerItemProxy */;
+		};
+		9412B4572698104600C8D625 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9412B4322698104500C8D625 /* mecanicaDePulo */;
+			targetProxy = 9412B4562698104600C8D625 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9412B4402698104500C8D625 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9412B4412698104500C8D625 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9412B45C2698104600C8D625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		9412B45D2698104600C8D625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9412B45F2698104600C8D625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H77RA5JQW6;
+				INFOPLIST_FILE = mecanicaDePulo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vini10b-hotmail.com.mecanicaDePulo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		9412B4602698104600C8D625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H77RA5JQW6;
+				INFOPLIST_FILE = mecanicaDePulo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vini10b-hotmail.com.mecanicaDePulo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		9412B4622698104600C8D625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H77RA5JQW6;
+				INFOPLIST_FILE = mecanicaDePuloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vini10b-hotmail.com.mecanicaDePuloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mecanicaDePulo.app/mecanicaDePulo";
+			};
+			name = Debug;
+		};
+		9412B4632698104600C8D625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H77RA5JQW6;
+				INFOPLIST_FILE = mecanicaDePuloTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vini10b-hotmail.com.mecanicaDePuloTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/mecanicaDePulo.app/mecanicaDePulo";
+			};
+			name = Release;
+		};
+		9412B4652698104600C8D625 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H77RA5JQW6;
+				INFOPLIST_FILE = mecanicaDePuloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vini10b-hotmail.com.mecanicaDePuloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mecanicaDePulo;
+			};
+			name = Debug;
+		};
+		9412B4662698104600C8D625 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H77RA5JQW6;
+				INFOPLIST_FILE = mecanicaDePuloUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "vini10b-hotmail.com.mecanicaDePuloUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = mecanicaDePulo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9412B42E2698104500C8D625 /* Build configuration list for PBXProject "mecanicaDePulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9412B45C2698104600C8D625 /* Debug */,
+				9412B45D2698104600C8D625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9412B45E2698104600C8D625 /* Build configuration list for PBXNativeTarget "mecanicaDePulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9412B45F2698104600C8D625 /* Debug */,
+				9412B4602698104600C8D625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9412B4612698104600C8D625 /* Build configuration list for PBXNativeTarget "mecanicaDePuloTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9412B4622698104600C8D625 /* Debug */,
+				9412B4632698104600C8D625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9412B4642698104600C8D625 /* Build configuration list for PBXNativeTarget "mecanicaDePuloUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9412B4652698104600C8D625 /* Debug */,
+				9412B4662698104600C8D625 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9412B42B2698104500C8D625 /* Project object */;
+}
